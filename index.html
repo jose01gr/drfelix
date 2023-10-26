@@ -1,0 +1,220 @@
+<!-- FILEPATH: /c:/Users/gonza/OneDrive/Escritorio/drfelix/index.html -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dr Felix Gastroenterologo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="header-buttons">
+                <a href="index.html"><img src="logo.png" alt="logo-doctor-felix"></a>
+                <h1>Dr. Felix</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Dr Felix</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <button class="opacity-button" id="whatsapp">
+                    <img src="tel.svg" alt="">
+                    +58 4120383584
+                </button>
+                <button class="blue-button" id="agendarcita">Agenda tu cita</button>
+            </div>
+        </header>
+        <main>
+            <section id="home">
+                <div class="orden-home">
+                    <h2 class="headline">Salud digestiva, tu bienestar es nuestra misión</h2>
+                    <p>Su salud digestiva es importante para su bienestar general. Si experimenta síntomas como dolor abdominal, náuseas, vómitos, diarrea o estreñimiento,estas en el lugar correcto.</p>
+                    <div class="header-buttons">
+                        <button class="blue-button" id="agendarcita">Agenda tu cita</button>
+                        <button class="opacity-button" id="whatsapp">+58 4120383584</button>
+                    </div>
+                </div>
+                <img src="heropic.png" alt="doctor-felix-hero">
+            </section>
+            <section id="services">
+                <h2 class="headline">Servicios que ofrecemos para tu bienestar</h2>
+                <div class="services-container">
+                    <div class="card">
+                        <h4>Consultas</h4>
+                        <ul>
+                            <li>Acidez estomacal</li>
+                            <li>Gastritis</li>
+                            <li>Ulceras</li>
+                            <li>Cirrosis</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>Endoscopia</h4>
+                        <p>un procedimiento que utiliza un tubo delgado con
+                            una cámara para examinar el interior del
+                            esófago, el estómago y el intestino delgado.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Colonoscopia</h4>
+                        <p>un procedimiento que utiliza un tubo delgado con una cámara para <br>
+                            examinar el interior del colon y el recto.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Ecografia</h4>
+                        <p>Las ecografías son un tipo de prueba de diagnóstico por imagen <br>
+                            que utiliza ondas sonoras para crear imágenes del <br>
+                            interior del cuerpo</p>
+                    </div>
+                    <div class="card">
+                        <h4>Radiografia</h4>
+                        <p>Las radiografías son un tipo de prueba de diagnóstico por <br>
+                            imagen que utiliza rayos X para crear <br>
+                            imágenes del interior del cuerpo. </p>
+                    </div>
+                    <div class="card">
+                        <h4>Gammagrama</h4>
+                        <p>es una prueba diagnóstica de Medicina Nuclear que consiste <br>
+                        en la administración de una pequeña dosis de
+                        radioisótopo (trazador). </p>
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+                <h2 class="headline">Dr. Félix R González P</h2>
+                <div class="orden-about">
+                    <div class="images-section">
+                        <img src="aboutpic.png" alt="doctor-felix">
+                    </div>
+                    <div class="about-info">
+                        <h3 class="headline">GASTROENTEROLOGO</h3>
+                        <p>Graduado en la universidad de carabobo y con 22 años de experiencia en el mercado soy tu mejor opcion  para todos los SERVICIOS que necesites</p>
+                        <p>Soy un médico compasivo y dedicado que se centra en proporcionar a mis pacientes la atención de la más alta calidad. Estoy comprometido a brindar a mis pacientes la mejor atención posible y estoy constantemente aprendiendo y mejorando mis habilidades.</p>
+                        <p>Siempre estoy disponible para responder preguntas y ayudar a mis pacientes a comprender mejor su salud. Me enorgullece brindar atención personalizada a cada paciente.</p>
+                        <div class="header-buttons">
+                            <button class="blue-button" id="instagram">Instagram</button>
+                            <button class="opacity-button" >+58 4120383584</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="agendar">
+                <h2 class="headline">AGENDA TU CITA</h2>
+                <div>
+                    <form class="orden-servicios">
+                        <div class="bigcard">
+                            <h3 class="title-card">El primer paso es conocerte</h3>
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required pattern="[a-zA-Z ]{2,50}"><br><br>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br><br>
+                            <label for="message">Telefono:</label>
+                            <input type="text" id="number" name="number" required pattern="^[0-9]+"><br><br>
+                            <label for="fecha">Fecha de la cita:</label>
+                            <input type="date" name="date" id="date" required>
+                            <label for="razon">Razon de la cita:</label>
+                            <textarea id="message" name="message" required></textarea><br><br>
+                            <input type="submit" value="Submit" class="blue-button">
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section id="contact">
+                <h2 class="headline">Contacta con nosotros estamos esperando por ti </h2>
+                <div class="orden-contacto">
+                    <div class="bigcard" id="contactocard">
+                        <form>
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required pattern="[a-zA-Z ]{2,54}"><br><br>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br><br>
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" required></textarea><br><br>
+                            <input type="submit" value="Submit" class="blue-button">
+                        </form>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15706.044919795593!2d-68.0159244!3d10.220289!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e805d9625eb6241%3A0x2c84d642197152bb!2zQ2zDrW5pY2EgTGEgVmnDsWE!5e0!3m2!1ses!2sus!4v1698331789754!5m2!1ses!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="largecard">
+                    <ul>
+                        <li>
+                            <img src="localitation.png" alt="mapa">
+                            <a href="https://www.google.com/maps/place/Cl%C3%ADnica+La+Vi%C3%B1a/@10.220289,-68.0159244,15z/data=!4m6!3m5!1s0x8e805d9625eb6241:0x2c84d642197152bb!8m2!3d10.220289!4d-68.0159244!16s%2Fg%2F11b6_gt6sx?entry=ttu">CENTRO POLICLINICO VALENCIA <br> "LA VIÑA" TORRE B,<br> PISO 2 CONSULTORIO 323, VALENCIA </a>
+                        </li>
+                        <li>
+                            <img src="clock.png" alt="reloj">
+                            <p>Lunes a Viernes 8:00 am - 12:00 pm</p>
+                        </li>
+                        <li>
+                            <img src="phone.png" alt="telefono">
+                            <a href="tel:+584120383584">+58 4120383584</a>
+                        </li>
+                        <li>
+                            <img src="mail.png" alt="correo">
+                            <a href="mailto:frgp.ch@gmail.com">frgp.ch@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <img src="logo.png" alt="logo-doctor-felix">
+                <a href="#home">Dr. Felix R González P</a>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#about">Dr Felix</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="https://www.instagram.com/felixdocvzla/?hl=es">Instagram</a></li>
+                    <li><a href="https://wa.link/mex6su">whatsapp</a></li>
+                    <li><a href="https://twitter.com/DrFelixGonzlezP">Twitter</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script>
+            // Get the buttons
+            const agendarButton = document.getElementById('agendarcita');
+            const contactUsButton = document.getElementById('whatsapp');
+            const instagramButton = document.getElementById('instagram');
+        
+            // Add event listeners to the buttons
+            agendarButton.addEventListener('click', () => {
+              // Scroll to the about section
+              document.getElementById('agendar').scrollIntoView({ behavior: 'smooth' });
+            });
+        
+            contactUsButton.addEventListener('click', () => {
+              // Scroll to the contact section
+              document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+            });
+        
+            instagramButton.addEventListener('click', (event) => {
+              // Prevent the form from submitting
+              event.preventDefault();
+        
+              // Get the form data
+              const name = document.getElementById('name').value;
+              const email = document.getElementById('email').value;
+              const message = document.getElementById('message').value;
+        
+              // Do something with the form data (e.g. send it to a server)
+              console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
+        
+              // Reset the form
+              document.getElementById('name').value = '';
+              document.getElementById('email').value = '';
+              document.getElementById('message').value = '';
+            });
+          </script>
+    </body>
+</html>
